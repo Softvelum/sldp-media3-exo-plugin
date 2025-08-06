@@ -1,2 +1,2 @@
-# sldp-media3-exo-plugin
-Media3 extension for SLDP playback a.k.a. ExoPlayer plugin
+# SLDP Media3 ExoPlayer DataSource
+Library for SLDP playback with Media3 ExoPlayer. Uses [SLDP Playback Library](https://github.com/Softvelum/sldp-playback-library).
