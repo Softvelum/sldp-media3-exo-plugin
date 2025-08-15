@@ -1,0 +1,13 @@
+[versions]
+agp = "8.12.0"
+annotations = "1.9.1"
+media3 = "1.8.0"
+sldp = "0.0.1"
+
+[libraries]
+androidx-annotations = { group = "androidx.annotation", name = "annotation", version.ref = "annotations" }
+androidx-media3-exoplayer = { group = "androidx.media3", name = "media3-exoplayer", version.ref = "media3" }
+sldp-playback-library = { module = "com.github.softvelum:sldp-playback-library", version.ref = "sldp" }
+
+[plugins]
+android-library = { id = "com.android.library", version.ref = "agp" }
